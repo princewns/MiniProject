@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>MiniProject</title>
+        <link rel="stylesheet" href="./CSS/common.css">
+    </head>
+    <body>
+        <h1 id="clock">00:00:00</h1>
+        <h1 id="greeting"></h1>
+        <form id="loginForm">
+            <input type="text" required placeholder="이름을 입력해주세요.">
+            <input type="submit" value="Log in">
+        </form>
+        <form id="memoForm" class="hidden">
+            <input type="text" required placeholder="메모를 입력해주세요.">
+            <input type="submit" value="Submit">
+        </form>
+        <div class="flex" id="memoBoard"></div>
+
+        <script src="./JS/login.js"></script>
+        <script src="./JS/memo.js"></script>
+        <script src="./JS/background.js"></script>
+        <script src="./JS/clock.js"></script>
+    </body>
+</html>

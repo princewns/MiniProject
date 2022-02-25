@@ -1,0 +1,65 @@
+.hidden{
+    display: none;
+}
+#clock {
+    text-align: center;
+    color: aqua;
+    text-shadow: 1px 1px 7px white;
+    font-size: 4em;
+}
+#greeting{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px aqua;
+}
+form{
+    text-align: center;
+}
+form input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px white;
+    width: 30%;
+    height: 50px;
+}
+form input[type="text"]::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 25px;
+}
+form input[type="text"]:focus{
+    border: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+form input[type="text"]:focus::placeholder{
+    color: transparent;
+}
+
+form input[type="submit"] {
+    background-color: aqua;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 5px white;
+    margin: 30px;
+    font-size: 25px;
+}
+form input[type="submit"]:hover{
+    background-color: white;
+}
+.flex{
+    margin: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex div{
+    background-color: rgba(0, 225, 255, 0.7);
+    width: 200px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    word-break: break-word;
+}
